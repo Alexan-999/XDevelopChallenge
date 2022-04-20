@@ -1,0 +1,63 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+ */
+.cuadrado{
+    background-image: linear-gradient(to left,#5D23D1, #4B5FD5);
+    position: absolute;
+    top: -500px;
+    right: -100px;
+    height: 1000px;
+    width: 1000px;
+    transform: rotate3d(3, 3, 1, 50deg);
+    /* transform: rotate3d(3,2,1, 60deg); */
+    -webkit-transform: rotate3d(3,2,1, 60deg);
+    -moz-transform: rotate3d(3,2,1, 60deg);
+    -ms-transform: rotate3d(3,2,1, 60deg);
+    -o-transform: rotate3d(3,2,1, 60deg);
+    border-radius: 50px;
+    z-index: -1;
+    /* -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px; */
+}
+
+
+.gris{
+    background-image: linear-gradient(#FFFFFF,#e3e7ed);
+    position: absolute;
+    top: 0px;
+    height: 90%;
+    width: 100%;
+    z-index: -2;
+}
+
+h1{
+    font-weight: lighter;
+    font-size: 35px;
+}
+
+.h1-bold{
+    font-weight: bold;
+}
+
+p{
+    color: #9899aa
+}
+
+
+/* a{
+    color: white;
+    padding: 0px 30px 0px 30px;
+    font-family: 'Anybody', cursive;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
+}
+ */
+
+/* .logo{
+    flex-grow: 2;
+    justify-content: start;
+}
+ */
+
+
