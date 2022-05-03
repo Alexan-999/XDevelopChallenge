@@ -1,0 +1,112 @@
+.secundary {
+  padding: 0px 0px 0px 180px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  flex-wrap: wrap;
+  width: 20%;
+  background-color: #ffffff;
+  margin-right: 25px;
+}
+@media (max-width: 1023px) {
+  .cards {
+    padding: 25px;
+    align-items: center;
+  }
+  .card {
+    align-items: center;
+    width: 40%;
+    margin-bottom: 20px;
+
+  }
+}
+
+.logos {
+  width: 100%;
+  padding-top: 15px;
+}
+
+.pin-ubication {
+  width: 8%;
+}
+
+.img-hermes {
+  width: 70%;
+  margin-left: 35px;
+}
+
+.img-coca {
+  width: 85%;
+  margin-left: 30px;
+  margin-top: 13px;
+  margin-bottom: 13px;
+}
+
+.img-dropbox {
+  width: 45%;
+  margin-left: 65px;
+  margin-top: 7px;
+}
+
+.img-mcdonalds {
+  width: 50%;
+  margin-left: 60px;
+}
+.bold-card {
+  font-weight: bold;
+  color: black;
+  margin-left: 10%;
+}
+
+.content-card {
+  margin-left: 10%;
+}
+
+.ubication {
+  color: #bfbfbf;
+  margin-left: 10%;
+}
+
+.card-button {
+  background-color: transparent;
+  padding: 15px 15px;
+  border: none;
+  margin-top: 25%;
+}
+
+.card-button:hover,
+.card-button:active {
+  background-color: #5c54d6;
+  box-shadow: 1px 17px 20px -8px rgba(23, 54, 140, 0.33);
+  border-radius: 100px;
+}
+
+.price-card {
+  background-color: #fafafe;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  column-count: 2;
+}
+
+.price-text {
+  margin-left: 10%;
+  font-size: 25px;
+  background-image: linear-gradient(45deg, #550fc3, #1540bb);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+
+.last{
+    margin-left: 10%;
+}

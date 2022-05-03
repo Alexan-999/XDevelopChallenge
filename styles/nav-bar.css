@@ -1,0 +1,72 @@
+.nav-button {
+  background-color: transparent;
+  font-family: "Anybody", cursive;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: x-small;
+  color: white;
+  padding: 15px 15px;
+  border: none;
+  font-weight: 400;
+}
+.nav-button:hover,
+.nav-button:active {
+  background-color: #5c54d6;
+  box-shadow: 1px 17px 20px -8px rgba(23, 54, 140, 0.33);
+  border-radius: 100px;
+}
+
+.nav-bar {
+  display: flex;
+}
+
+.links {
+  position: absolute;
+  right: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: "Source Sans Pro", sans-serif;
+  flex-grow: 1.5;
+}
+
+.login {
+  position: absolute;
+  right: 30px;
+  justify-content: flex-end;
+}
+.logo {
+  padding: 25px;
+}
+
+
+/* .container {
+  padding: 20px;
+} */
+
+
+@media (max-width: 1023px) {
+
+  .nav-button {
+  font-size: 10px;
+  padding: 10px 10px;
+  border: none;
+  font-weight: 400;
+}
+
+.links {
+  right: 200px;
+}
+
+.login {
+  flex-wrap: wrap;
+  right: 20px;
+}
+
+.logo {
+  padding: 25px;
+}
+
+.container {
+  padding: 20px;
+}
+}
+

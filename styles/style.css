@@ -1,0 +1,49 @@
+.cuadrado {
+  background-image: linear-gradient(to left, #5d23d1, #4b5fd5);
+  position: absolute;
+  top: -500px;
+  right: -100px;
+  height: 1000px;
+  width: 1000px;
+  transform: rotate3d(3, 3, 1, 50deg);
+  -webkit-transform: rotate3d(3, 2, 1, 60deg);
+  -moz-transform: rotate3d(3, 2, 1, 60deg);
+  -ms-transform: rotate3d(3, 2, 1, 60deg);
+  -o-transform: rotate3d(3, 2, 1, 60deg);
+  border-radius: 50px;
+  z-index: -1;
+}
+
+.gris {
+  background-image: linear-gradient(#ffffff, #e3e7ed);
+  position: absolute;
+  top: 0px;
+  height: 90%;
+  width: 100%;
+  z-index: -2;
+}
+@media (max-width: 1023px) {
+  .gris {
+    height: 60%;
+  }
+  .cuadrado {
+    top: -500px;
+    right: -50px;
+    width: 60%;
+  }
+}
+
+h1 {
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.h1-bold {
+  font-weight: bold;
+}
+
+p {
+  color: #9899aa;
+}
+
+
